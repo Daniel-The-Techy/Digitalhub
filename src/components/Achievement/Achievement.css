@@ -1,0 +1,55 @@
+.bg{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/pexels-fauxels-3183125.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 60vh;
+}
+.Achievement{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100vw;
+    height:400px;
+    background-color:green;
+    mix-blend-mode:hard-light;
+    padding:30px;
+
+}
+
+.Achievement-1{
+    border:1px solid #fff;
+    width:20%;
+    height:120px;
+    color:#fff;
+    text-align: center;
+}
+.Achievement-1 h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.Achievement-1 p{
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+@media screen  and (max-width:768px){
+
+.Achievement{
+    display:block;
+    height:100vh;
+    margin-top: 20px;
+    padding:50px;
+}
+.Achievement-1{
+    width:80%;
+    margin:30px auto;
+}
+.Achievement img{
+    height:100vh;
+}
+.bg{
+    height:100vh;
+}
+
+}

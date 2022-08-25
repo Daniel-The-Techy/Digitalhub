@@ -1,0 +1,122 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #fff;
+    box-shadow:0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0, 0.5);
+}
+.container:nth-child(odd) img{
+    order: 2;
+   
+}
+
+.Container-1{
+    padding:25px;
+}
+
+.Container-1 .Appoint{
+ background-color: rgb(31, 219, 14);
+ padding:10px;
+ outline: none;
+ border: none;
+}
+.Container-1 .Contact{
+  background-color:ORANGE;
+  padding:10px;
+  outline: none;
+  margin: 3px;
+  border: none;
+  cursor: pointer;
+}
+.container h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.container p{
+    letter-spacing: 2px;
+    color:gray;
+    padding:20px;
+}
+.container img{
+    width:100vw;
+    height:50vh;
+}
+.container ~ h2{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 30px;
+
+}
+.Consider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow:0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0, 0.5);
+    margin-top: 70px;
+}
+.Consider-1{
+    padding:30px;
+}
+.Consider-1 h3{
+   font-size: 40px;
+}
+.Consider-1 h3::first-letter{
+    font-size: 70px;
+    font-weight: 700;
+    color: green;
+}
+.Consider ~ h4{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    color: green;
+}
+.Consider p{
+    padding:10px;
+    letter-spacing:2px;
+    color: gray;
+}
+.Consider img{
+    width:100vw;
+    height:60vh;
+    opacity:1;
+}
+.Consider button{
+    background-color: orange;
+    padding:10px;
+    width:80px;
+    border-radius:5px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        display: block;
+    }
+    .container h1{
+        font-size: 30px;
+        white-space:pre-line;
+    }
+    .container p{
+        justify-content: start;
+        padding:0;
+        margin-top: 20px;
+    }
+    .Container-1 button{
+        margin-top: 20px;
+    }
+    .Consider{
+        display:block;
+    }
+    .container ~ h2{
+        width:100%;
+        white-space:wrap
+    }
+}

@@ -1,0 +1,57 @@
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/pexels-lukas-590022.jpg);
+    min-height:70vh;
+    max-height:70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.Title{
+    position: absolute;
+    top:40%;
+    width:100%;
+    text-align: center;
+}
+.Title h1{
+  font-size: 70px;
+  font-weight:700;
+}
+.Title p{
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 200;
+}
+.Title button{
+    margin-top: 20px;
+    background-color: orange;
+    padding:15px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.Title button:hover{
+     background-color:#fff;
+}
+.Juju{
+    color: red;
+}
+
+
+@media screen and (max-width:768px){
+
+    .Title h1{
+        font-size: 40px;
+        font-weight:700;
+      }
+      .Title p{
+        color:#fff;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+
+}

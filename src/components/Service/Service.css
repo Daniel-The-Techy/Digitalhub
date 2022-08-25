@@ -1,0 +1,63 @@
+.Service{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:20px;
+}
+.Service-1{
+    box-shadow:0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0, 0.5);
+    background-color:#fff;
+     width:20%;
+     margin-top: 100px;
+    height:30%;
+}
+.Service-1 .icon{
+     font-size: 30px;
+     width: 100%;
+     margin-left: 40%;
+     background-color: orange;
+     padding:5px;
+     align-self: center;
+}
+.Service-1 span{
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    margin-left: 30%;
+}
+.Service-1 h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.Service-1 p{
+   font-size: 15px;
+   color:gray;
+   padding:20px;
+
+}
+h4{
+  
+     width:60%;
+     white-space:wrap;
+     margin: 0 auto;
+     color: rgb(65, 110, 71);
+}
+
+
+@media screen and (min-width:300px) and (max-width:768px){
+    .Service{
+        display:block;
+    }
+    .Service-1{
+        width:100%;
+       
+    }
+    h4{
+        width:100%;
+    }
+
+}

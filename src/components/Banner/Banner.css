@@ -1,0 +1,39 @@
+.Banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/PRIOE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.Banner-1{
+    height:300px;
+    width:100%;
+    background-color: rgba(22, 243, 22, 0.5);
+    mix-blend-mode:hard-light;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+.Banner h1{
+    color: White;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Banner-1 p{
+    color:white;
+    letter-spacing: 1.5px;
+    padding:20px 20px;
+    white-space: pre-line;
+}
+.Banner-1 button{
+    background-color: orange;
+    padding:15px;
+    outline:none;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:300px) and  (max-width:768px){
+
+    .Banner-1{
+        height:70vh;
+    }
+}

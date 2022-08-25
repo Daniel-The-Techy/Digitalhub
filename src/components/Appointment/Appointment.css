@@ -1,0 +1,79 @@
+.Appointment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.Appointment-1 form{
+    display: block;
+    padding: 25px;
+}
+.Appointment-1 input{
+    display: block;
+    padding:20px;
+    width:550px;
+    margin:30px;
+}
+.Appointment-1 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Appointment-1 textarea{
+    height:200px;
+    padding:20px;
+    margin:30px;
+    border:2px solid #ccc;
+    resize: none;
+    width:550px;
+}
+.Appointment-1 button{
+    background-color: rgb(238, 204, 8);
+    padding:20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    width:60em;
+}
+.Appointment-1 button:hover{
+    background-color: rgb(11, 208, 66);
+}
+.Appointment img{
+    width:60%;
+    height:100vh;
+}
+h5{
+    border-bottom:2px solid orange ;
+    width:60%;
+    white-space:wrap;
+    margin: 0 auto;
+    color: rgb(65, 110, 71);
+}
+
+@media screen and (max-width:768px){
+    .Appointment{
+        display:block;
+    }
+    .Appointment img{
+        width:100%;
+        height:50vh;
+    }
+    .Appointment-1 input{
+        padding:15px;
+        margin:0;
+        margin-bottom: 10px;
+        width:100%;
+    }
+
+    .Appointment-1 textarea{
+        margin: 0;
+       width: 100%;
+    }
+    .Appointment-1 button{
+        width:100%;
+    }
+
+
+}
