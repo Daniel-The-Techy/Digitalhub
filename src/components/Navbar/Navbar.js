@@ -37,11 +37,7 @@ function Navbar() {
 
                           </li>
                 
-                          <li>
-                    <Link className="Nav-links"  to="/Privacy">Privacy/Policy</Link>
-
-                          </li>
-
+                 
 <li>
                     <Link className="Nav-link-Mobile" to="/Contact">Contact Us</Link>
                 </li>
